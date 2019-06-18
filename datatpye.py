@@ -71,3 +71,11 @@ perimeter = 2 * math.pi * r
 
 print ("The area is %.2f" % area) #保留两位小数
 print ("The perimeter is %.2f" % perimeter)
+
+"""
+输入年份 如果是闰年输出True 否则输出False
+
+"""
+year = int(input("please input the year"))
+is_leap = (year % 4 == 0 and year % 100 != 0 or year % 400 == 0)
+print (is_leap)
