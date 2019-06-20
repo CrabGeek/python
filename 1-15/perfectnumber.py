@@ -2,8 +2,6 @@ import math
 
 num = 1
 
-
-
 while True:
     accumlator = 0
     for i in range(1, num):
