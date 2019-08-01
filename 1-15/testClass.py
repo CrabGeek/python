@@ -9,6 +9,10 @@ def main():
     stu2 = Student('王大锤', 15)
     stu2.study('思想品德')
     stu2.watch_movie()
+    stu1.score  = 10
+
+    stu2 = Student.name = 'haha'
+
 
 
 if __name__ == '__main__':
